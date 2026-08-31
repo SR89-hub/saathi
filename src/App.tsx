@@ -1,9 +1,7 @@
-"use client";
-
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-export default function Home() {
+export default function App() {
   const [currentScreen, setCurrentScreen] = useState("1");
   const [currentTime, setCurrentTime] = useState("9:41");
 
